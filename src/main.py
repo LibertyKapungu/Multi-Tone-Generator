@@ -262,7 +262,7 @@ class MyLayout(BoxLayout):
             if not freq.text:
                 frequency_array[i] = 0
             else:
-                frequency_array[i] = freq.text
+                frequency_array[i] = int(freq.text)
 
         self.f1, self.f2, self.f3, self.f4 = frequency_array
 
