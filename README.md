@@ -2,8 +2,6 @@
 
 The Multi-Tone Generator App is a Python application created with Kivy and Pygame. It enables users to generate and manipulate up to four tones simultaneously, each with its unique frequency, all in real-time. The app was originally designed for controlling an audio-responsive RC car, where the four frequencies generated would dictate the speed of the car's two wheels.
 
-<img width="500" alt="App image" src="https://github.com/LibertyKapungu/Multi-Tone-Generator-App/assets/136171455/1bfb20aa-6dc8-428d-a81e-5bfc98883cd7">
-
 ## Features
 
 - **Multi-Frequency Generation:** Generate up to four tones, each with a customizable frequency.
