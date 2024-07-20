@@ -31,15 +31,15 @@ The Multi-Tone Generator App is a Python application created with Kivy and Pygam
 
 | No sound played | Set Frequencies |
 |-------------------------------|-------------------------------|
-| <img src="screen_shots/play_none.png" alt="No sound played" title="No sound played" width="250"> | <img src="screen_shots/set_custom_frequencies.png" alt="Set Frequencies" title="Set Frequencies" width="250"> |
+| <img src="screen_shots/play_none.png" alt="No sound played" title="No sound played" width="100"> | <img src="screen_shots/set_custom_frequencies.png" alt="Set Frequencies" title="Set Frequencies" width="100"> |
 
 
 | Only play Frequency 3 | Only play Frequencies 1, 2 and 4 |
 |--------------------------------------|---------------------------------------------|
-| <img src="screen_shots/play_f3_only.png" alt="Only play Frequency 3" title="Only play Frequency 3" width="250"> | <img src="screen_shots/play_only_f1_f2_f4.png" alt="Only play Frequencies 1, 2 and 4" title="Only play Frequencies 1, 2 and 4" width="250"> |
+| <img src="screen_shots/play_f3_only.png" alt="Only play Frequency 3" title="Only play Frequency 3" width="100"> | <img src="screen_shots/play_only_f1_f2_f4.png" alt="Only play Frequencies 1, 2 and 4" title="Only play Frequencies 1, 2 and 4" width="100"> |
 
 
 | Play all frequencies |
 |------------------------------------|
-| <img src="screen_shots/play_all_four.png" alt="Play all frequencies" title="Play all frequencies" width="250"> |
+| <img src="screen_shots/play_all_four.png" alt="Play all frequencies" title="Play all frequencies" width="100"> |
 
