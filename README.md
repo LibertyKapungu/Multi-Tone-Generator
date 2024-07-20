@@ -13,9 +13,9 @@ The Multi-Tone Generator App is a Python application created with Kivy and Pygam
 
 1. Ensure you have Python installed on your system.
 
-2. Install the required dependencies:
+2. Clone the repository
 
-3. Clone the repository
+3. Install the required dependencies:
 
 4. Run the main.py file to launch the application:
 
@@ -25,7 +25,7 @@ The Multi-Tone Generator App is a Python application created with Kivy and Pygam
 2. Use the 'Set Freq' button to open the frequency setting popup.
 3. Adjust the frequency values for each tone as desired and click 'Save', otherwise default values will be used.
 4. Toggle individual tones on/off using the respective buttons.
-5. The 'Start' button indicates whether sound is currently playing or not.
+5. The Activate button indicates whether sound is playing or not.
 
 ## Screenshots
 

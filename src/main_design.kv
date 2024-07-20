@@ -1,0 +1,85 @@
+<MyLayout>
+
+    id: widget_layout
+    BoxLayout:
+
+        orientation: "vertical"
+        size: root.width, root.height
+
+        #Upper row of buttons to toggle f1 and f2
+        GridLayout:
+            cols: 4
+            size_hint: 1, .1
+            spacing: 5
+            padding:10
+
+            Button:
+                id: f1_f2_ON
+                background_color: 0, 0, 1, 1
+                text: "F1,2 ON"
+                on_press: root.on_button_press(self)
+
+            Button:
+                id: f1_ON
+                background_color: 0, 0, 1, 1
+                text: "F1"
+                on_press: root.on_button_press(self)
+
+            Button:
+                id: f2_ON
+                background_color: 0, 0, 1, 1
+                text: "F2"
+                on_press: root.on_button_press(self)
+
+            Button:
+                id: f1_f2_OFF
+                background_color: 0, 0, 1, 1
+                text: "F1,2 OFF"
+                on_press: root.on_button_press(self)
+
+        GridLayout: 
+            cols: 1
+            size_hint: 1, .1
+            spacing: 5
+            padding:10
+
+            Button:
+                id: main_button
+                text: "Press to Activate"
+                on_press: root.edit_status(self)
+
+            Button:
+                id: set_frequency
+                text: "Set Frequency"
+                on_press: root.open_popup()
+
+        #Bottom row of buttons to toggle f3 and f4
+        GridLayout:
+            cols:4
+            size_hint: 1, .1
+            spacing: 5
+            padding:10
+
+            Button:
+                id: f3_f4_ON
+                background_color: 0, 0, 1, 1
+                text: "F3,4 ON"
+                on_press: root.on_button_press(self)
+
+            Button:
+                id: f3_ON
+                background_color: 0, 0, 1, 1
+                text: "F3"
+                on_press: root.on_button_press(self)
+
+            Button:
+                id: f4_ON
+                background_color: 0, 0, 1, 1
+                text: "F4"
+                on_press: root.on_button_press(self)
+
+            Button:
+                id: f3_f4_OFF
+                background_color: 0, 0, 1, 1
+                text: "F3,4 OFF"
+                on_press: root.on_button_press(self)
