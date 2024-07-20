@@ -38,8 +38,8 @@ class MyLayout(BoxLayout):
 
         if button_text == "F1":
             print(button_text + "Pressed")
-            self.update_amplitude(0 , 0.5)  #Set amplitude 3 to 0.5
-            self.update_amplitude(1 , 0)    #Set amplitude 4 to 0
+            self.update_amplitude(0 , 0.5)  #Set amplitude 1 to 0.5
+            self.update_amplitude(1 , 0)    #Set amplitude 2 to 0
             self.ids.f1_ON.background_color = (0, 1, 0, 1)
             self.ids.f2_ON.background_color = (0, 0, 1, 1)
             self.ids.f1_f2_ON.background_color = (0, 0, 1, 1)
@@ -48,7 +48,7 @@ class MyLayout(BoxLayout):
 
         elif button_text == "F2":
             print(button_text + "Pressed")
-            self.update_amplitude(0 , 0)   #Set amplitude 1 to zero
+            self.update_amplitude(0 , 0)   #Set amplitude 1 to 0
             self.update_amplitude(1 , 0.5) #Set amplitude 2 to 0.5
             self.ids.f1_ON.background_color = (0, 0, 1, 1)
             self.ids.f2_ON.background_color = (0, 1, 0, 1)
@@ -79,8 +79,8 @@ class MyLayout(BoxLayout):
         elif button_text == "F1,2 ON":
             print(button_text + "Pressed")
             self.left_active = True
-            self.update_amplitude(0 , 0.5) #Set amplitude 1 to zero
-            self.update_amplitude(1 , 0.5) #Set amplitude 2 to zero
+            self.update_amplitude(0 , 0.5) #Set amplitude 1 to 0.5
+            self.update_amplitude(1 , 0.5) #Set amplitude 2 to 0.5
             self.ids.f1_ON.background_color = (0, 0, 1, 1)
             self.ids.f2_ON.background_color = (0, 0, 1, 1)
             self.ids.f1_f2_ON.background_color = (0, 1, 0, 1)
@@ -98,8 +98,8 @@ class MyLayout(BoxLayout):
             
         elif button_text == "F1,2 OFF":
             print(button_text + "Pressed")
-            self.update_amplitude(0 , 0) #Set amplitude 1 to zero
-            self.update_amplitude(1 , 0) #Set amplitude 2 to zero
+            self.update_amplitude(0 , 0) #Set amplitude 1 to 0
+            self.update_amplitude(1 , 0) #Set amplitude 2 to 0
             pygame.mixer.Channel(0).stop()
             pygame.mixer.Channel(1).stop()
             self.ids.f1_ON.background_color = (0, 0, 1, 1)
@@ -109,8 +109,8 @@ class MyLayout(BoxLayout):
             
         elif button_text == "F3,4 OFF":
             print(button_text + "Pressed")
-            self.update_amplitude(2 , 0) #Set amplitude 3 to zero
-            self.update_amplitude(3 , 0) #Set amplitude 4 to zero
+            self.update_amplitude(2 , 0) #Set amplitude 3 to 0
+            self.update_amplitude(3 , 0) #Set amplitude 4 to 0
             pygame.mixer.Channel(2).stop()
             pygame.mixer.Channel(3).stop()
             self.ids.f3_ON.background_color = (0, 0, 1, 1)
